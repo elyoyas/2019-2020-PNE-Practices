@@ -12,4 +12,6 @@ def fibosum(n):
             num_1 += 1
         suma += num_to_print
     return suma
-print("Sum of the first 5 fibonacci terms:",fibosum(5),"\nSum of the first 10 fibonacci terms:",fibosum(10) )
+
+
+print("Sum of the first 5 fibonacci terms:", fibosum(5), "\nSum of the first 10 fibonacci terms:", fibosum(10))
