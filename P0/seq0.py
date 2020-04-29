@@ -14,23 +14,33 @@ def seq_read_fasta(filename):
 
 
 def seq_len(seq):
-    contents = Path(seq).read_text()
-    lines = contents.split('\n')
-    del (lines[0])
-    DNA_string = ''.join(lines)
-    return len(DNA_string)
+
+    try:
+        contents = Path(seq).read_text()
+        lines = contents.split('\n')
+        del (lines[0])
+        DNA_string = ''.join(lines)
+        return len(DNA_string)
+    except FileNotFoundError:
+        return len(seq)
 
 
 def seq_count_base(seq, base):
-    count = 0
-    contents = Path(seq).read_text()
-    lines = contents.split('\n')
-    del (lines[0])
-    DNA_string = ''.join(lines)
-    for element in DNA_string:
-        if element == base:
-            count += 1
-    return count
+    try:
+        count = 0
+        contents = Path(seq).read_text()
+        lines = contents.split('\n')
+        del (lines[0])
+        DNA_string = ''.join(lines)
+        for element in DNA_string:
+            if element == base:
+                count += 1
+        return count
+    except FileNotFoundError:
+        for element in seq:
+            if element == base:
+                count += 1
+        return count
 
 
 def seq_count(seq):
