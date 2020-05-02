@@ -1,0 +1,9 @@
+pings:
+SELF 192.168.56.1: Mínimo = 0ms, Máximo = 0ms, Media = 0ms
+URJC[212.128.240.50]: Mínimo = 15ms, Máximo = 16ms, Media = 15ms
+GOOGLE 8.8.8.8: Mínimo = 13ms, Máximo = 44ms, Media = 20ms
+MOBILE 192.168.1.48:  Mínimo = 4ms, Máximo = 313ms, Media = 108ms
+GITHUB[140.82.118.3]: Mínimo = 51ms, Máximo = 56ms, Media = 53ms
+WIKIPEDIA[91.198.174.192]:  Mínimo = 42ms, Máximo = 45ms, Media = 43ms
+NEWDOMAIN[103.223.184.84]: Mínimo = 345ms, Máximo = 347ms, Media = 346ms
+FUENLA212.128.255.129:   Paquetes: enviados = 4, recibidos = 0, perdidos = 4
