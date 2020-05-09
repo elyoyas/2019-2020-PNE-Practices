@@ -79,7 +79,7 @@ class Seq:
         contents = Path(filename).read_text()
         lines = contents.split('\n')
         del (lines[0])
-        self.strbases = "".join(lines)
+        self.strbases = str("".join(lines))
         return self
 def print_seqs(seq_list, n):
     if type(seq_list) == Seq:
