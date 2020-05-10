@@ -1,0 +1,2 @@
+The character ammount in the body has been capped by placing a 5 in the length, and the web wont load.
+Curl does not show the html content either.

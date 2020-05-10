@@ -1,0 +1,7 @@
+------------------------------------------------------------------------------
+
+ANSWER:
+THE WEB SERVER DISPLAYS THE HTML CODE DIRECTLY AS A TEXT INSTEAD OF EXECUTING IT,
+HENCE WE CAN SEE NO COLORS OR ORDER, ONLY CODE
+
+----------------------------------------------------------------------------
