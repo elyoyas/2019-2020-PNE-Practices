@@ -1,0 +1,32 @@
+[
+  {
+    "Firstname": "Troll",
+    "Lastname": "Face",
+    "age": 20,
+    "phoneNumber": [
+        {"number": "1111", "type": "home"},
+        {"number": "333", "type" : "office"}
+      ]
+  },
+
+  {
+  "Firstname": "JAKE",
+  "Lastname": "THEDOG",
+  "age": 69,
+  "phoneNumber": [
+      {"number": "1312", "type": "acab"}
+    ]
+  },
+
+   {
+  "Firstname": "FINN",
+  "Lastname": "THEHUMAN",
+  "age": 420,
+  "phoneNumber": [
+      {"number": "2551253", "type": "Tree house"},
+      {"number": "6940", "type": "Work"},
+      {"number": "121212", "type": "Pub"},
+      {"number": "94818412", "type": "satanic rituals"}
+  ]
+  }
+]
