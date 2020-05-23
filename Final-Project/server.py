@@ -29,16 +29,21 @@ class TestHandler(http.server.BaseHTTPRequestHandler):
             plagueis = self.path.split("?")[1]
             ext = '/info/species?'
             api_info = contact(ext, parameters)
-            total_list = "COMMON NOMENCLATURE|||TAXONOMIC NOMENCLATURE<br><br>"
+            total_list = f"COMMON NOMENCLATURE|||TAXONOMIC NOMENCLATURE<br>"
             msg = plagueis.split("=")[1]
             try:
                 n = 0
                 if msg == "":
+                    total_list += "<br> Showing all species as no limit was defined<br><br>"
                     for i in api_info["species"]:
                         total_list += f'|{i["display_name"]}_______________{i["name"]}|<br>'
                 elif int(msg) <= 0:
                     total_list = "Perhaps you should try a number bigger than 0"
                 else:
+                    if int(msg)> 267:
+                        total_list += f"<br> Showing all species<br><br>"
+                    else:
+                        total_list += f"<br> Showing {msg} species<br><br>"
                     for i in api_info["species"]:
                         if n < int(msg):
                             n += 1
@@ -180,6 +185,7 @@ class TestHandler(http.server.BaseHTTPRequestHandler):
 </center>
 </body>
 </html>"""
+#MEDIUM LEVEL ENDPOINTS
 
         else:
             contents = Path('ERROR.html').read_text()
