@@ -1,0 +1,448 @@
+LIST SPECIES ENDPOINT:
+--------------------------------------------------------------------------------
+TEST1:
+input=
+http://localhost:8080/listSpecies?msg=
+output=
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SPECIES LIST</title>
+    </head>
+    <center>
+    <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >AVAILABLE SPECIES LIST</h1>
+    <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to the main site</p>
+    <body style="background-color:#57cc99;font-family:arial">
+    <p>  COMMON NOMENCLATURE|||TAXONOMIC NOMENCLATURE<br><br> Showing all species as no limit was defined<br><br>|Pig - Rongchang_______________sus_scrofa_rongchang|<br>|Pika_______________ochotona_princeps|<br>|African ostrich_______________struthio_camelus_australis|<br>|Nile tilapia_______________oreochromis_niloticus|<br>|Channel catfish_______________ictalurus_punctatus|<br>|West African mud turtle_______________pelusios_castaneus|<br>|Channel bull blenny_______________cottoperca_gobio|<br>|Sooty mangabey_______________cercocebus_atys|<br>|Dolphin_______________tursiops_truncatus|<br>|Naked mole-rat male_______________heterocephalus_glaber_male|<br>|Brown trout_______________salmo_trutta|<br>|Eastern brown snake_______________pseudonaja_textilis|<br>|Mouse CAST/EiJ_______________mus_musculus_casteij|<br>|Spiny chromis_______________acanthochromis_polyacanthus|<br>|Gorilla_______________gorilla_gorilla|<br>|Silver-eye_______________zosterops_lateralis_melanops|<br>|Sloth_______________choloepus_hoffmanni|<br>|Eurasian sparrowhawk_______________accipiter_nisus|<br>|Mouse AKR/J_______________mus_musculus_akrj|<br>|Sailfin molly_______________poecilia_latipinna|<br>|Greater bamboo lemur_______________prolemur_simus|<br>|Mangrove rivulus_______________kryptolebias_marmoratus|<br>|Platypus_______________ornithorhynchus_anatinus|<br>|Live sharksucker_______________echeneis_naucrates|<br>|Megabat_______________pteropus_vampyrus|<br>|Mouse NOD/ShiLtJ_______________mus_musculus_nodshiltj|<br>|Ferret_______________mustela_putorius_furo|<br>|Coelacanth_______________latimeria_chalumnae|<br>|Lion_______________panthera_leo|<br>|Siamese fighting fish_______________betta_splendens|<br>|Pig - Wuzhishan_______________sus_scrofa_wuzhishan|<br>|Brazilian guinea pig_______________cavia_aperea|<br>|Sheepshead minnow_______________cyprinodon_variegatus|<br>|Beluga whale_______________delphinapterus_leucas|<br>|Domestic yak_______________bos_grunniens|<br>|Orbiculate cardinalfish_______________sphaeramia_orbicularis|<br>|Chinese hamster CHOK1GS_______________cricetulus_griseus_chok1gshd|<br>|Kakapo_______________strigops_habroptila|<br>|Orangutan_______________pongo_abelii|<br>|Daurian ground squirrel_______________spermophilus_dauricus|<br>|Pig - Bamei_______________sus_scrofa_bamei|<br>|Mouse BALB/cJ_______________mus_musculus_balbcj|<br>|Common carp huanghe_______________cyprinus_carpio_huanghe|<br>|Three-toed box turtle_______________terrapene_carolina_triunguis|<br>|Tongue sole_______________cynoglossus_semilaevis|<br>|Chimpanzee_______________pan_troglodytes|<br>|Ma's night monkey_______________aotus_nancymaae|<br>|Red-bellied piranha_______________pygocentrus_nattereri|<br>|Pig - Tibetan_______________sus_scrofa_tibetan|<br>|Drill_______________mandrillus_leucophaeus|<br>|Anole lizard_______________anolis_carolinensis|<br>|Duck_______________anas_platyrhynchos_platyrhynchos|<br>|Common carp german mirror_______________cyprinus_carpio_germanmirror|<br>|Chilean tinamou_______________nothoprocta_perdicaria|<br>|Marmoset_______________callithrix_jacchus|<br>|Chinese medaka_______________oryzias_sinensis|<br>|Greater amberjack_______________seriola_dumerili|<br>|Mouse_______________mus_musculus|<br>|Dark-eyed junco_______________junco_hyemalis|<br>|Mouse DBA/2J_______________mus_musculus_dba2j|<br>|Arctic ground squirrel_______________urocitellus_parryii|<br>|Pig_______________sus_scrofa|<br>|Mallard_______________anas_platyrhynchos|<br>|Dog - Great Dane_______________canis_lupus_familiarisgreatdane|<br>|Great Tit_______________parus_major|<br>|Pig - Pietrain_______________sus_scrofa_pietrain|<br>|Mainland tiger snake_______________notechis_scutatus|<br>|Pig - Jinhua_______________sus_scrofa_jinhua|<br>|Lesser hedgehog tenrec_______________echinops_telfairi|<br>|Climbing perch_______________anabas_testudineus|<br>|Tuatara_______________sphenodon_punctatus|<br>|Wild yak_______________bos_mutus|<br>|Bushbaby_______________otolemur_garnettii|<br>|Degu_______________octodon_degus|<br>|Siberian musk deer_______________moschus_moschiferus|<br>|Northern pike_______________esox_lucius|<br>|Pig - Meishan_______________sus_scrofa_meishan|<br>|Gilthead seabream_______________sparus_aurata|<br>|Kangaroo rat_______________dipodomys_ordii|<br>|Ring-necked pheasant_______________phasianus_colchicus|<br>|Mummichog_______________fundulus_heteroclitus|<br>|American mink_______________neovison_vison|<br>|Tasmanian devil_______________sarcophilus_harrisii|<br>|Horned golden-line barbel_______________sinocyclocheilus_rhinocerous|<br>|Shrew mouse_______________mus_pahari|<br>|Golden Hamster_______________mesocricetus_auratus|<br>|Pachon cavefish_______________astyanax_mexicanus_pachon|<br>|Mouse PWK/PhJ_______________mus_musculus_pwkphj|<br>|Hybrid - Bos Taurus_______________bos_taurus_hybrid|<br>|Canada lynx_______________lynx_canadensis|<br>|Wallaby_______________notamacropus_eugenii|<br>|Argentine black and white tegu_______________salvator_merianae|<br>|Monterrey platyfish_______________xiphophorus_couchianus|<br>|Blue tit_______________cyanistes_caeruleus|<br>|Japanese quail_______________coturnix_japonica|<br>|Microbat_______________myotis_lucifugus|<br>|Panda_______________ailuropoda_melanoleuca|<br>|Chinook salmon_______________oncorhynchus_tshawytscha|<br>|Hedgehog_______________erinaceus_europaeus|<br>|Ryukyu mouse_______________mus_caroli|<br>|Chinese hamster CriGri_______________cricetulus_griseus_crigri|<br>|Tree Shrew_______________tupaia_belangeri|<br>|Central bearded dragon_______________pogona_vitticeps|<br>|Amazon molly_______________poecilia_formosa|<br>|Helmeted guineafowl_______________numida_meleagris|<br>|Stickleback_______________gasterosteus_aculeatus|<br>|Northern American deer mouse_______________peromyscus_maniculatus_bairdii|<br>|Saccharomyces cerevisiae_______________saccharomyces_cerevisiae|<br>|Dog - Basenji_______________canis_lupus_familiarisbasenji|<br>|Golden eagle_______________aquila_chrysaetos_chrysaetos|<br>|Tiger tail seahorse_______________hippocampus_comes|<br>|Chacoan peccary_______________catagonus_wagneri|<br>|Japanese medaka HdrR_______________oryzias_latipes|<br>|Lamprey_______________petromyzon_marinus|<br>|Mexican tetra_______________astyanax_mexicanus|<br>|Common snapping turtle_______________chelydra_serpentina|<br>|American black bear_______________ursus_americanus|<br>|Okarito brown kiwi_______________apteryx_rowi|<br>|Gouldian finch_______________erythrura_gouldiae|<br>|Mongolian gerbil_______________meriones_unguiculatus|<br>|C.intestinalis_______________ciona_intestinalis|<br>|Mouse LP/J_______________mus_musculus_lpj|<br>|Great spotted kiwi_______________apteryx_haastii|<br>|Western mosquitofish_______________gambusia_affinis|<br>|Periophthalmus magnuspinnatus_______________periophthalmus_magnuspinnatus|<br>|Mouse 129S1/SvImJ_______________mus_musculus_129s1svimj|<br>|Flycatcher_______________ficedula_albicollis|<br>|Yellow-billed parrot_______________amazona_collaria|<br>|Mouse C57BL/6NJ_______________mus_musculus_c57bl6nj|<br>|Pig-tailed macaque_______________macaca_nemestrina|<br>|Dingo_______________canis_lupus_dingo|<br>|Rainbow trout_______________oncorhynchus_mykiss|<br>|Alpaca_______________vicugna_pacos|<br>|Zig-zag eel_______________mastacembelus_armatus|<br>|Hagfish_______________eptatretus_burgeri|<br>|Common carp_______________cyprinus_carpio|<br>|Armadillo_______________dasypus_novemcinctus|<br>|Pig - Largewhite_______________sus_scrofa_largewhite|<br>|Opossum_______________monodelphis_domestica|<br>|Lyretail cichlid_______________neolamprologus_brichardi|<br>|Goat_______________capra_hircus|<br>|Barramundi perch_______________lates_calcarifer|<br>|Small tree finch_______________camarhynchus_parvulus|<br>|Mouse WSB/EiJ_______________mus_musculus_wsbeij|<br>|American beaver_______________castor_canadensis|<br>|Pig - Landrace_______________sus_scrofa_landrace|<br>|Elephant shark_______________callorhinchus_milii|<br>|Sperm whale_______________physeter_catodon|<br>|Spotted gar_______________lepisosteus_oculatus|<br>|Mouse CBA/J_______________mus_musculus_cbaj|<br>|Blue tilapia_______________oreochromis_aureus|<br>|Platyfish_______________xiphophorus_maculatus|<br>|Medium ground-finch_______________geospiza_fortis|<br>|Paramormyrops kingsleyae_______________paramormyrops_kingsleyae|<br>|Tarsier_______________carlito_syrichta|<br>|Common wall lizard_______________podarcis_muralis|<br>|Swan goose_______________anser_cygnoides|<br>|Blue-ringed sea krait_______________laticauda_laticaudata|<br>|Common canary_______________serinus_canaria|<br>|Chinese hamster PICR_______________cricetulus_griseus_picr|<br>|Vervet-AGM_______________chlorocebus_sabaeus|<br>|Golden-collared manakin_______________manacus_vitellinus|<br>|Long-tailed chinchilla_______________chinchilla_lanigera|<br>|Zebra finch_______________taeniopygia_guttata|<br>|C.savignyi_______________ciona_savignyi|<br>|Rat_______________rattus_norvegicus|<br>|Ocean sunfish_______________mola_mola|<br>|Little spotted kiwi_______________apteryx_owenii|<br>|Indian medaka_______________oryzias_melastigma|<br>|Cow_______________bos_taurus|<br>|Leopard_______________panthera_pardus|<br>|Atlantic salmon_______________salmo_salar|<br>|Alpine marmot_______________marmota_marmota_marmota|<br>|Large yellow croaker_______________larimichthys_crocea|<br>|Upper Galilee mountains blind mole rat_______________nannospalax_galili|<br>|Goodes thornscrub tortoise_______________gopherus_evgoodei|<br>|Indian peafowl_______________pavo_cristatus|<br>|Common carp hebao red_______________cyprinus_carpio_hebaored|<br>|Denticle herring_______________denticeps_clupeoides|<br>|Koala_______________phascolarctos_cinereus|<br>|Midas cichlid_______________amphilophus_citrinellus|<br>|Golden-line barbel_______________sinocyclocheilus_grahami|<br>|Turbot_______________scophthalmus_maximus|<br>|Ruff_______________calidris_pugnax|<br>|Pig USMARC_______________sus_scrofa_usmarc|<br>|Pig - Hampshire_______________sus_scrofa_hampshire|<br>|Human_______________homo_sapiens|<br>|Burrowing owl_______________athene_cunicularia|<br>|Cod_______________gadus_morhua|<br>|Burton's mouthbrooder_______________haplochromis_burtoni|<br>|Donkey_______________equus_asinus_asinus|<br>|Guinea Pig_______________cavia_porcellus|<br>|Clown anemonefish_______________amphiprion_ocellaris|<br>|Golden pheasant_______________chrysolophus_pictus|<br>|Sheep_______________ovis_aries|<br>|Red fox_______________vulpes_vulpes|<br>|Bonobo_______________pan_paniscus|<br>|Indian glassy fish_______________parambassis_ranga|<br>|Tetraodon_______________tetraodon_nigroviridis|<br>|Ballan wrasse_______________labrus_bergylta|<br>|Pig - Berkshire_______________sus_scrofa_berkshire|<br>|Hybrid - Bos Indicus_______________bos_indicus_hybrid|<br>|Budgerigar_______________melopsittacus_undulatus|<br>|Meerkat_______________suricata_suricatta|<br>|European seabass_______________dicentrarchus_labrax|<br>|Elephant_______________loxodonta_africana|<br>|Emu_______________dromaius_novaehollandiae|<br>|Tiger_______________panthera_tigris_altaica|<br>|Drosophila melanogaster_______________drosophila_melanogaster|<br>|Steppe mouse_______________mus_spicilegus|<br>|Swamp eel_______________monopterus_albus|<br>|Japanese medaka HNI_______________oryzias_latipes_hni|<br>|Jewelled blenny_______________salarias_fasciatus|<br>|Mouse C3H/HeJ_______________mus_musculus_c3hhej|<br>|Zebra mbuna_______________maylandia_zebra|<br>|White-throated sparrow_______________zonotrichia_albicollis|<br>|Painted turtle_______________chrysemys_picta_bellii|<br>|Zebrafish_______________danio_rerio|<br>|Goldfish_______________carassius_auratus|<br>|Horse_______________equus_caballus|<br>|Greater horseshoe bat_______________rhinolophus_ferrumequinum|<br>|Eastern happy_______________astatotilapia_calliptera|<br>|Tropical clawed frog_______________xenopus_tropicalis|<br>|Spoon-billed sandpiper_______________calidris_pygmaea|<br>|Angola colobus_______________colobus_angolensis_palliatus|<br>|Algerian mouse_______________mus_spretus|<br>|Dog_______________canis_lupus_familiaris|<br>|Macaque_______________macaca_mulatta|<br>|Squirrel_______________ictidomys_tridecemlineatus|<br>|Mouse Lemur_______________microcebus_murinus|<br>|Common wombat_______________vombatus_ursinus|<br>|Rabbit_______________oryctolagus_cuniculus|<br>|Polar bear_______________ursus_maritimus|<br>|Atlantic herring_______________clupea_harengus|<br>|Chicken_______________gallus_gallus|<br>|Fugu_______________takifugu_rubripes|<br>|Bicolor damselfish_______________stegastes_partitus|<br>|Mouse NZO/HlLtJ_______________mus_musculus_nzohlltj|<br>|Reedfish_______________erpetoichthys_calabaricus|<br>|Chinese softshell turtle_______________pelodiscus_sinensis|<br>|Blunt-snouted clingfish_______________gouania_willdenowi|<br>|Caenorhabditis elegans_______________caenorhabditis_elegans|<br>|Coquerel's sifaka_______________propithecus_coquereli|<br>|Agassiz's desert tortoise_______________gopherus_agassizii|<br>|Guppy_______________poecilia_reticulata|<br>|Javanese ricefish_______________oryzias_javanicus|<br>|Makobe Island cichlid_______________pundamilia_nyererei|<br>|Prairie vole_______________microtus_ochrogaster|<br>|Gelada_______________theropithecus_gelada|<br>|Pinecone soldierfish_______________myripristis_murdjan|<br>|Arabian camel_______________camelus_dromedarius|<br>|Japanese medaka HSOK_______________oryzias_latipes_hsok|<br>|Asiatic black bear_______________ursus_thibetanus_thibetanus|<br>|Bengalese finch_______________lonchura_striata_domestica|<br>|Hyrax_______________procavia_capensis|<br>|Turkey_______________meleagris_gallopavo|<br>|Shrew_______________sorex_araneus|<br>|Golden snub-nosed monkey_______________rhinopithecus_roxellana|<br>|Black snub-nosed monkey_______________rhinopithecus_bieti|<br>|Round goby_______________neogobius_melanostomus|<br>|Asian bonytongue_______________scleropages_formosus|<br>|Electric eel_______________electrophorus_electricus|<br>|American bison_______________bison_bison_bison|<br>|Shortfin molly_______________poecilia_mexicana|<br>|Orange clownfish_______________amphiprion_percula|<br>|Komodo dragon_______________varanus_komodoensis|<br>|Blind barbel_______________sinocyclocheilus_anshuiensis|<br>|Ugandan red Colobus_______________piliocolobus_tephrosceles|<br>|Olive baboon_______________papio_anubis|<br>|Lesser Egyptian jerboa_______________jaculus_jaculus|<br>|Cat_______________felis_catus|<br>|Pink-footed goose_______________anser_brachyrhynchus|<br>|Capuchin_______________cebus_capucinus|<br>|Australian saltwater crocodile_______________crocodylus_porosus|<br>|Naked mole-rat female_______________heterocephalus_glaber_female|<br>|Mouse FVB/NJ_______________mus_musculus_fvbnj|<br>|Abingdon island giant tortoise_______________chelonoidis_abingdonii|<br>|Gibbon_______________nomascus_leucogenys|<br>|Mouse A/J_______________mus_musculus_aj|<br>|Yellowtail amberjack_______________seriola_lalandi_dorsalis|<br>|Bolivian squirrel monkey_______________saimiri_boliviensis_boliviensis|<br>|Crab-eating macaque_______________macaca_fascicularis|<br>|Damara mole rat_______________fukomys_damarensis|<br>|Huchen_______________hucho_hucho|<br>|Rufous-capped babbler_______________stachyris_ruficeps|<br>|Blue-crowned manakin_______________lepidothrix_coronata|<br> </p>
+    <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to the main site</p>
+    </center>
+    </body>
+    </html>
+
+comment: normally working endpoint with no argument input
+----------------------------------------------------------------
+TEST 2:
+input:
+http://localhost:8080/listSpecies?msg=12
+output:
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SPECIES LIST</title>
+    </head>
+    <center>
+    <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >AVAILABLE SPECIES LIST</h1>
+    <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to the main site</p>
+    <body style="background-color:#57cc99;font-family:arial">
+    <p>  COMMON NOMENCLATURE|||TAXONOMIC NOMENCLATURE<br><br> Showing 12 species<br><br>|Pig - Rongchang_______________sus_scrofa_rongchang|<br>|Pika_______________ochotona_princeps|<br>|African ostrich_______________struthio_camelus_australis|<br>|Nile tilapia_______________oreochromis_niloticus|<br>|Channel catfish_______________ictalurus_punctatus|<br>|West African mud turtle_______________pelusios_castaneus|<br>|Channel bull blenny_______________cottoperca_gobio|<br>|Sooty mangabey_______________cercocebus_atys|<br>|Dolphin_______________tursiops_truncatus|<br>|Naked mole-rat male_______________heterocephalus_glaber_male|<br>|Brown trout_______________salmo_trutta|<br>|Eastern brown snake_______________pseudonaja_textilis|<br> </p>
+    <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to the main site</p>
+    </center>
+    </body>
+    </html>
+ comment: working endpoint with a valid number input between 0 and 267
+----------------------------------------------------------------
+TEST 3:
+input:
+http://localhost:8080/listSpecies?msg=1200
+output:
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SPECIES LIST</title>
+    </head>
+    <center>
+    <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >AVAILABLE SPECIES LIST</h1>
+    <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to the main site</p>
+    <body style="background-color:#57cc99;font-family:arial">
+    <p>  COMMON NOMENCLATURE|||TAXONOMIC NOMENCLATURE<br><br> Showing all species<br><br>|Pig - Rongchang_______________sus_scrofa_rongchang|<br>|Pika_______________ochotona_princeps|<br>|African ostrich_______________struthio_camelus_australis|<br>|Nile tilapia_______________oreochromis_niloticus|<br>|Channel catfish_______________ictalurus_punctatus|<br>|West African mud turtle_______________pelusios_castaneus|<br>|Channel bull blenny_______________cottoperca_gobio|<br>|Sooty mangabey_______________cercocebus_atys|<br>|Dolphin_______________tursiops_truncatus|<br>|Naked mole-rat male_______________heterocephalus_glaber_male|<br>|Brown trout_______________salmo_trutta|<br>|Eastern brown snake_______________pseudonaja_textilis|<br>|Mouse CAST/EiJ_______________mus_musculus_casteij|<br>|Spiny chromis_______________acanthochromis_polyacanthus|<br>|Gorilla_______________gorilla_gorilla|<br>|Silver-eye_______________zosterops_lateralis_melanops|<br>|Sloth_______________choloepus_hoffmanni|<br>|Eurasian sparrowhawk_______________accipiter_nisus|<br>|Mouse AKR/J_______________mus_musculus_akrj|<br>|Sailfin molly_______________poecilia_latipinna|<br>|Greater bamboo lemur_______________prolemur_simus|<br>|Mangrove rivulus_______________kryptolebias_marmoratus|<br>|Platypus_______________ornithorhynchus_anatinus|<br>|Live sharksucker_______________echeneis_naucrates|<br>|Megabat_______________pteropus_vampyrus|<br>|Mouse NOD/ShiLtJ_______________mus_musculus_nodshiltj|<br>|Ferret_______________mustela_putorius_furo|<br>|Coelacanth_______________latimeria_chalumnae|<br>|Lion_______________panthera_leo|<br>|Siamese fighting fish_______________betta_splendens|<br>|Pig - Wuzhishan_______________sus_scrofa_wuzhishan|<br>|Brazilian guinea pig_______________cavia_aperea|<br>|Sheepshead minnow_______________cyprinodon_variegatus|<br>|Beluga whale_______________delphinapterus_leucas|<br>|Domestic yak_______________bos_grunniens|<br>|Orbiculate cardinalfish_______________sphaeramia_orbicularis|<br>|Chinese hamster CHOK1GS_______________cricetulus_griseus_chok1gshd|<br>|Kakapo_______________strigops_habroptila|<br>|Orangutan_______________pongo_abelii|<br>|Daurian ground squirrel_______________spermophilus_dauricus|<br>|Pig - Bamei_______________sus_scrofa_bamei|<br>|Mouse BALB/cJ_______________mus_musculus_balbcj|<br>|Common carp huanghe_______________cyprinus_carpio_huanghe|<br>|Three-toed box turtle_______________terrapene_carolina_triunguis|<br>|Tongue sole_______________cynoglossus_semilaevis|<br>|Chimpanzee_______________pan_troglodytes|<br>|Ma's night monkey_______________aotus_nancymaae|<br>|Red-bellied piranha_______________pygocentrus_nattereri|<br>|Pig - Tibetan_______________sus_scrofa_tibetan|<br>|Drill_______________mandrillus_leucophaeus|<br>|Anole lizard_______________anolis_carolinensis|<br>|Duck_______________anas_platyrhynchos_platyrhynchos|<br>|Common carp german mirror_______________cyprinus_carpio_germanmirror|<br>|Chilean tinamou_______________nothoprocta_perdicaria|<br>|Marmoset_______________callithrix_jacchus|<br>|Chinese medaka_______________oryzias_sinensis|<br>|Greater amberjack_______________seriola_dumerili|<br>|Mouse_______________mus_musculus|<br>|Dark-eyed junco_______________junco_hyemalis|<br>|Mouse DBA/2J_______________mus_musculus_dba2j|<br>|Arctic ground squirrel_______________urocitellus_parryii|<br>|Pig_______________sus_scrofa|<br>|Mallard_______________anas_platyrhynchos|<br>|Dog - Great Dane_______________canis_lupus_familiarisgreatdane|<br>|Great Tit_______________parus_major|<br>|Pig - Pietrain_______________sus_scrofa_pietrain|<br>|Mainland tiger snake_______________notechis_scutatus|<br>|Pig - Jinhua_______________sus_scrofa_jinhua|<br>|Lesser hedgehog tenrec_______________echinops_telfairi|<br>|Climbing perch_______________anabas_testudineus|<br>|Tuatara_______________sphenodon_punctatus|<br>|Wild yak_______________bos_mutus|<br>|Bushbaby_______________otolemur_garnettii|<br>|Degu_______________octodon_degus|<br>|Siberian musk deer_______________moschus_moschiferus|<br>|Northern pike_______________esox_lucius|<br>|Pig - Meishan_______________sus_scrofa_meishan|<br>|Gilthead seabream_______________sparus_aurata|<br>|Kangaroo rat_______________dipodomys_ordii|<br>|Ring-necked pheasant_______________phasianus_colchicus|<br>|Mummichog_______________fundulus_heteroclitus|<br>|American mink_______________neovison_vison|<br>|Tasmanian devil_______________sarcophilus_harrisii|<br>|Horned golden-line barbel_______________sinocyclocheilus_rhinocerous|<br>|Shrew mouse_______________mus_pahari|<br>|Golden Hamster_______________mesocricetus_auratus|<br>|Pachon cavefish_______________astyanax_mexicanus_pachon|<br>|Mouse PWK/PhJ_______________mus_musculus_pwkphj|<br>|Hybrid - Bos Taurus_______________bos_taurus_hybrid|<br>|Canada lynx_______________lynx_canadensis|<br>|Wallaby_______________notamacropus_eugenii|<br>|Argentine black and white tegu_______________salvator_merianae|<br>|Monterrey platyfish_______________xiphophorus_couchianus|<br>|Blue tit_______________cyanistes_caeruleus|<br>|Japanese quail_______________coturnix_japonica|<br>|Microbat_______________myotis_lucifugus|<br>|Panda_______________ailuropoda_melanoleuca|<br>|Chinook salmon_______________oncorhynchus_tshawytscha|<br>|Hedgehog_______________erinaceus_europaeus|<br>|Ryukyu mouse_______________mus_caroli|<br>|Chinese hamster CriGri_______________cricetulus_griseus_crigri|<br>|Tree Shrew_______________tupaia_belangeri|<br>|Central bearded dragon_______________pogona_vitticeps|<br>|Amazon molly_______________poecilia_formosa|<br>|Helmeted guineafowl_______________numida_meleagris|<br>|Stickleback_______________gasterosteus_aculeatus|<br>|Northern American deer mouse_______________peromyscus_maniculatus_bairdii|<br>|Saccharomyces cerevisiae_______________saccharomyces_cerevisiae|<br>|Dog - Basenji_______________canis_lupus_familiarisbasenji|<br>|Golden eagle_______________aquila_chrysaetos_chrysaetos|<br>|Tiger tail seahorse_______________hippocampus_comes|<br>|Chacoan peccary_______________catagonus_wagneri|<br>|Japanese medaka HdrR_______________oryzias_latipes|<br>|Lamprey_______________petromyzon_marinus|<br>|Mexican tetra_______________astyanax_mexicanus|<br>|Common snapping turtle_______________chelydra_serpentina|<br>|American black bear_______________ursus_americanus|<br>|Okarito brown kiwi_______________apteryx_rowi|<br>|Gouldian finch_______________erythrura_gouldiae|<br>|Mongolian gerbil_______________meriones_unguiculatus|<br>|C.intestinalis_______________ciona_intestinalis|<br>|Mouse LP/J_______________mus_musculus_lpj|<br>|Great spotted kiwi_______________apteryx_haastii|<br>|Western mosquitofish_______________gambusia_affinis|<br>|Periophthalmus magnuspinnatus_______________periophthalmus_magnuspinnatus|<br>|Mouse 129S1/SvImJ_______________mus_musculus_129s1svimj|<br>|Flycatcher_______________ficedula_albicollis|<br>|Yellow-billed parrot_______________amazona_collaria|<br>|Mouse C57BL/6NJ_______________mus_musculus_c57bl6nj|<br>|Pig-tailed macaque_______________macaca_nemestrina|<br>|Dingo_______________canis_lupus_dingo|<br>|Rainbow trout_______________oncorhynchus_mykiss|<br>|Alpaca_______________vicugna_pacos|<br>|Zig-zag eel_______________mastacembelus_armatus|<br>|Hagfish_______________eptatretus_burgeri|<br>|Common carp_______________cyprinus_carpio|<br>|Armadillo_______________dasypus_novemcinctus|<br>|Pig - Largewhite_______________sus_scrofa_largewhite|<br>|Opossum_______________monodelphis_domestica|<br>|Lyretail cichlid_______________neolamprologus_brichardi|<br>|Goat_______________capra_hircus|<br>|Barramundi perch_______________lates_calcarifer|<br>|Small tree finch_______________camarhynchus_parvulus|<br>|Mouse WSB/EiJ_______________mus_musculus_wsbeij|<br>|American beaver_______________castor_canadensis|<br>|Pig - Landrace_______________sus_scrofa_landrace|<br>|Elephant shark_______________callorhinchus_milii|<br>|Sperm whale_______________physeter_catodon|<br>|Spotted gar_______________lepisosteus_oculatus|<br>|Mouse CBA/J_______________mus_musculus_cbaj|<br>|Blue tilapia_______________oreochromis_aureus|<br>|Platyfish_______________xiphophorus_maculatus|<br>|Medium ground-finch_______________geospiza_fortis|<br>|Paramormyrops kingsleyae_______________paramormyrops_kingsleyae|<br>|Tarsier_______________carlito_syrichta|<br>|Common wall lizard_______________podarcis_muralis|<br>|Swan goose_______________anser_cygnoides|<br>|Blue-ringed sea krait_______________laticauda_laticaudata|<br>|Common canary_______________serinus_canaria|<br>|Chinese hamster PICR_______________cricetulus_griseus_picr|<br>|Vervet-AGM_______________chlorocebus_sabaeus|<br>|Golden-collared manakin_______________manacus_vitellinus|<br>|Long-tailed chinchilla_______________chinchilla_lanigera|<br>|Zebra finch_______________taeniopygia_guttata|<br>|C.savignyi_______________ciona_savignyi|<br>|Rat_______________rattus_norvegicus|<br>|Ocean sunfish_______________mola_mola|<br>|Little spotted kiwi_______________apteryx_owenii|<br>|Indian medaka_______________oryzias_melastigma|<br>|Cow_______________bos_taurus|<br>|Leopard_______________panthera_pardus|<br>|Atlantic salmon_______________salmo_salar|<br>|Alpine marmot_______________marmota_marmota_marmota|<br>|Large yellow croaker_______________larimichthys_crocea|<br>|Upper Galilee mountains blind mole rat_______________nannospalax_galili|<br>|Goodes thornscrub tortoise_______________gopherus_evgoodei|<br>|Indian peafowl_______________pavo_cristatus|<br>|Common carp hebao red_______________cyprinus_carpio_hebaored|<br>|Denticle herring_______________denticeps_clupeoides|<br>|Koala_______________phascolarctos_cinereus|<br>|Midas cichlid_______________amphilophus_citrinellus|<br>|Golden-line barbel_______________sinocyclocheilus_grahami|<br>|Turbot_______________scophthalmus_maximus|<br>|Ruff_______________calidris_pugnax|<br>|Pig USMARC_______________sus_scrofa_usmarc|<br>|Pig - Hampshire_______________sus_scrofa_hampshire|<br>|Human_______________homo_sapiens|<br>|Burrowing owl_______________athene_cunicularia|<br>|Cod_______________gadus_morhua|<br>|Burton's mouthbrooder_______________haplochromis_burtoni|<br>|Donkey_______________equus_asinus_asinus|<br>|Guinea Pig_______________cavia_porcellus|<br>|Clown anemonefish_______________amphiprion_ocellaris|<br>|Golden pheasant_______________chrysolophus_pictus|<br>|Sheep_______________ovis_aries|<br>|Red fox_______________vulpes_vulpes|<br>|Bonobo_______________pan_paniscus|<br>|Indian glassy fish_______________parambassis_ranga|<br>|Tetraodon_______________tetraodon_nigroviridis|<br>|Ballan wrasse_______________labrus_bergylta|<br>|Pig - Berkshire_______________sus_scrofa_berkshire|<br>|Hybrid - Bos Indicus_______________bos_indicus_hybrid|<br>|Budgerigar_______________melopsittacus_undulatus|<br>|Meerkat_______________suricata_suricatta|<br>|European seabass_______________dicentrarchus_labrax|<br>|Elephant_______________loxodonta_africana|<br>|Emu_______________dromaius_novaehollandiae|<br>|Tiger_______________panthera_tigris_altaica|<br>|Drosophila melanogaster_______________drosophila_melanogaster|<br>|Steppe mouse_______________mus_spicilegus|<br>|Swamp eel_______________monopterus_albus|<br>|Japanese medaka HNI_______________oryzias_latipes_hni|<br>|Jewelled blenny_______________salarias_fasciatus|<br>|Mouse C3H/HeJ_______________mus_musculus_c3hhej|<br>|Zebra mbuna_______________maylandia_zebra|<br>|White-throated sparrow_______________zonotrichia_albicollis|<br>|Painted turtle_______________chrysemys_picta_bellii|<br>|Zebrafish_______________danio_rerio|<br>|Goldfish_______________carassius_auratus|<br>|Horse_______________equus_caballus|<br>|Greater horseshoe bat_______________rhinolophus_ferrumequinum|<br>|Eastern happy_______________astatotilapia_calliptera|<br>|Tropical clawed frog_______________xenopus_tropicalis|<br>|Spoon-billed sandpiper_______________calidris_pygmaea|<br>|Angola colobus_______________colobus_angolensis_palliatus|<br>|Algerian mouse_______________mus_spretus|<br>|Dog_______________canis_lupus_familiaris|<br>|Macaque_______________macaca_mulatta|<br>|Squirrel_______________ictidomys_tridecemlineatus|<br>|Mouse Lemur_______________microcebus_murinus|<br>|Common wombat_______________vombatus_ursinus|<br>|Rabbit_______________oryctolagus_cuniculus|<br>|Polar bear_______________ursus_maritimus|<br>|Atlantic herring_______________clupea_harengus|<br>|Chicken_______________gallus_gallus|<br>|Fugu_______________takifugu_rubripes|<br>|Bicolor damselfish_______________stegastes_partitus|<br>|Mouse NZO/HlLtJ_______________mus_musculus_nzohlltj|<br>|Reedfish_______________erpetoichthys_calabaricus|<br>|Chinese softshell turtle_______________pelodiscus_sinensis|<br>|Blunt-snouted clingfish_______________gouania_willdenowi|<br>|Caenorhabditis elegans_______________caenorhabditis_elegans|<br>|Coquerel's sifaka_______________propithecus_coquereli|<br>|Agassiz's desert tortoise_______________gopherus_agassizii|<br>|Guppy_______________poecilia_reticulata|<br>|Javanese ricefish_______________oryzias_javanicus|<br>|Makobe Island cichlid_______________pundamilia_nyererei|<br>|Prairie vole_______________microtus_ochrogaster|<br>|Gelada_______________theropithecus_gelada|<br>|Pinecone soldierfish_______________myripristis_murdjan|<br>|Arabian camel_______________camelus_dromedarius|<br>|Japanese medaka HSOK_______________oryzias_latipes_hsok|<br>|Asiatic black bear_______________ursus_thibetanus_thibetanus|<br>|Bengalese finch_______________lonchura_striata_domestica|<br>|Hyrax_______________procavia_capensis|<br>|Turkey_______________meleagris_gallopavo|<br>|Shrew_______________sorex_araneus|<br>|Golden snub-nosed monkey_______________rhinopithecus_roxellana|<br>|Black snub-nosed monkey_______________rhinopithecus_bieti|<br>|Round goby_______________neogobius_melanostomus|<br>|Asian bonytongue_______________scleropages_formosus|<br>|Electric eel_______________electrophorus_electricus|<br>|American bison_______________bison_bison_bison|<br>|Shortfin molly_______________poecilia_mexicana|<br>|Orange clownfish_______________amphiprion_percula|<br>|Komodo dragon_______________varanus_komodoensis|<br>|Blind barbel_______________sinocyclocheilus_anshuiensis|<br>|Ugandan red Colobus_______________piliocolobus_tephrosceles|<br>|Olive baboon_______________papio_anubis|<br>|Lesser Egyptian jerboa_______________jaculus_jaculus|<br>|Cat_______________felis_catus|<br>|Pink-footed goose_______________anser_brachyrhynchus|<br>|Capuchin_______________cebus_capucinus|<br>|Australian saltwater crocodile_______________crocodylus_porosus|<br>|Naked mole-rat female_______________heterocephalus_glaber_female|<br>|Mouse FVB/NJ_______________mus_musculus_fvbnj|<br>|Abingdon island giant tortoise_______________chelonoidis_abingdonii|<br>|Gibbon_______________nomascus_leucogenys|<br>|Mouse A/J_______________mus_musculus_aj|<br>|Yellowtail amberjack_______________seriola_lalandi_dorsalis|<br>|Bolivian squirrel monkey_______________saimiri_boliviensis_boliviensis|<br>|Crab-eating macaque_______________macaca_fascicularis|<br>|Damara mole rat_______________fukomys_damarensis|<br>|Huchen_______________hucho_hucho|<br>|Rufous-capped babbler_______________stachyris_ruficeps|<br>|Blue-crowned manakin_______________lepidothrix_coronata|<br> </p>
+    <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to the main site</p>
+    </center>
+    </body>
+    </html>
+ comment: when an input bigger than 267 is made it says "showing all species" instead of "showing 1200 species"
+----------------------------------------------------------------
+TEST 4:
+input:
+http://localhost:8080/listSpecies?msg=patata
+output:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page not found</title>
+</head>
+<center>
+    <strong>
+    <pre style="background-color:white;">
+ ____   ____  _____   _____ _ _
+  / __ \ / __ \|  __ \ / ____| | |
+ | |  | | |  | | |__) | (___ | | |
+ | |  | | |  | |  ___/ \___ \| | |
+ | |__| | |__| | |     ____) |_|_|
+  \____/ \____/|_|    |_____/(_|_)
+   </pre>
+</strong>
+<hr>
+<h2 style="font-family:arial">Looks like the data you submitted is not valid!!</h2>
+<hr>
+
+<p style="font-family:arial">lost? click <a href="/">here</a> to return to the main site and try again</p>
+
+<body style="background-color:#FF6347;">
+</center>
+</body>
+</html>
+
+comments: any non numeric value shows this result when introduced
+----------------------------------------------------------------
+TEST 5:
+input:
+http://localhost:8080/listSpecies?msg=-1
+output:
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SPECIES LIST</title>
+    </head>
+    <center>
+    <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >AVAILABLE SPECIES LIST</h1>
+    <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to the main site</p>
+    <body style="background-color:#57cc99;font-family:arial">
+    <p>  Perhaps you should try a number bigger than 0 </p>
+    <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to the main site</p>
+    </center>
+    </body>
+    </html>
+comment: non possitive inputs will make the server suggest you introduced a possitive one
+------------------------------------------------------------------------------
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+------------------------------------------------------------------------------
+
+
+
+KARYOTYPE ENDPOINT:
+
+
+
+TEST 1:
+input:
+http://localhost:8080/Karyotype?species=mouse
+output:
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Mouse's Karyotipe</title>
+        </head>
+        <center>
+        <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >
+        Mouse's karyotype</h1>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        <body style="background-color:#57cc99;font-family:arial">
+        <p>  CHROMOSOME NAMES LIST<br><br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>X<br>Y<br>MT<br> </p>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        </center>
+        </body>
+        </html>
+
+comment: working endpoint with a valid animal input
+-------------------------------------------------------------------------------
+TEST 2:
+input:
+http://localhost:8080/Karyotype?species=homo+sapiens
+output:
+
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Homo sapiens's Karyotipe</title>
+        </head>
+        <center>
+        <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >
+        Homo sapiens's karyotype</h1>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        <body style="background-color:#57cc99;font-family:arial">
+        <p>  CHROMOSOME NAMES LIST<br><br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br>21<br>22<br>X<br>Y<br>MT<br> </p>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        </center>
+        </body>
+        </html>
+
+comment:working repo with an animal with a space on its name,
+where the title display (homo sapiens's karyotype) still has a space instead of a + or a %20 in it
+-------------------------------------------------------------------------------
+TEST 3:
+input:
+http://localhost:8080/Karyotype?species=esparrago
+output:
+
+<!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <title>Not available</title>
+                        </head>
+                        <center>
+                        <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >Not available</h1>
+                        <p style="font-family:arial;background-color: #c7f9cc">
+                        click <a href="/">here</a> to return to the main site</p>
+                        <body style="background-color:#57cc99;font-family:arial">
+                        <p>  " esparrago " is not part of our database´s animals </p>
+                        <a href="/listSpecies?msg=">For more information on the available animals click here</a>
+                        <p style="font-family:arial;background-color: #c7f9cc">
+                        click <a href="/">here</a> to return to the main site</p>
+                        </center>
+                        </body>
+                        </html>
+comment: endpoint's answer to any unrecognized animal (or any invalid input) is a link to the valid animal list
+-------------------------------------------------------------------------------
+TEST 4:
+input:
+http://localhost:8080/Karyotype?species=Pika
+output:
+
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Pika's Karyotipe</title>
+        </head>
+        <center>
+        <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >
+        Pika's karyotype</h1>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        <body style="background-color:#57cc99;font-family:arial">
+        <p>  Eventhough this animal is in our data, we do not have its karyotype </p>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        </center>
+        </body>
+        </html>
+
+comment: certain animals are valid but have no registered chromosomes
+-------------------------------------------------------------------------------
+TEST 5:
+input:
+http://localhost:8080/Karyotype?species=h123h5o12ho3a0945
+output:
+
+<!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <title>Not available</title>
+                        </head>
+                        <center>
+                        <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >Not available</h1>
+                        <p style="font-family:arial;background-color: #c7f9cc">
+                        click <a href="/">here</a> to return to the main site</p>
+                        <body style="background-color:#57cc99;font-family:arial">
+                        <p>  " h123h5o12ho3a0945 " is not part of our database´s animals </p>
+                        <a href="/listSpecies?msg=">For more information on the available animals click here</a>
+                        <p style="font-family:arial;background-color: #c7f9cc">
+                        click <a href="/">here</a> to return to the main site</p>
+                        </center>
+                        </body>
+                        </html>
+
+comment:another example of an absolutely random input and its output
+-------------------------------------------------------------------------------
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+-------------------------------------------------------------------------------
+
+
+
+CHROMOSOME LENGTH ENDPOINT:
+
+
+
+TEST 1:
+input:
+http://localhost:8080/ChromosomeLength?species=dog&chromosome=x
+output:
+
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>CHROMOSOME LENGTH</title>
+        </head>
+        <center>
+        <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >
+        CHROMOSOME LENGTH</h1>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        <body style="background-color:#57cc99;font-family:arial">
+        <p> The length of the dog chromosome x is: <br><br> 123869142</p>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        </center>
+        </body>
+        </html>
+comment: working endpoint with a valid animal and chromosome
+
+----------------------------------------------------------------------
+TEST 2:
+input:
+http://localhost:8080/ChromosomeLength?species=homo+sapiens&chromosome=3
+output:
+
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>CHROMOSOME LENGTH</title>
+        </head>
+        <center>
+        <h1 style="font-family:arial;font-size:55px;background-color: #38a3a5" >
+        CHROMOSOME LENGTH</h1>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        <body style="background-color:#57cc99;font-family:arial">
+        <p> The length of the homo sapiens chromosome 3 is: <br><br> 198295559</p>
+        <p style="font-family:arial;background-color: #c7f9cc"> click <a href="/">here</a> to return to main site</p>
+        </center>
+        </body>
+        </html>
+comment: working endpoint where the species input had two words divided by a space
+----------------------------------------------------------------------
+TEST 3:
+input:
+http://localhost:8080/ChromosomeLength?species=unicorn&chromosome=3
+output:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page not found</title>
+</head>
+<center>
+    <strong>
+    <pre style="background-color:white;">
+ ____   ____  _____   _____ _ _
+  / __ \ / __ \|  __ \ / ____| | |
+ | |  | | |  | | |__) | (___ | | |
+ | |  | | |  | |  ___/ \___ \| | |
+ | |__| | |__| | |     ____) |_|_|
+  \____/ \____/|_|    |_____/(_|_)
+   </pre>
+</strong>
+<hr>
+<h2 style="font-family:arial">Looks like the data you submitted is not valid!!</h2>
+<hr>
+
+<p style="font-family:arial">lost? click <a href="/">here</a> to return to the main site and try again</p>
+
+<body style="background-color:#FF6347;">
+</center>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPECIES LIST</title>
+</head>
+<center>
+<body style="background-color:#57cc99;font-family:arial">
+<p>  having trouble? <br><a href="/Karyotype?msg=unicorn">Check if your animal is in our database</a><br>
+</center>
+</body>
+</html>
+comment: having an incorrect animal OR chromosome makes this error site appear, where a link is offered.
+if you click the link you can go to the karyotype site of the species you had selected and check for its availability
+and its chromosomes
+----------------------------------------------------------------------
+TEST 4:
+input:
+http://localhost:8080/ChromosomeLength?species=mouse&chromosome=1234
+output:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page not found</title>
+</head>
+<center>
+    <strong>
+    <pre style="background-color:white;">
+ ____   ____  _____   _____ _ _
+  / __ \ / __ \|  __ \ / ____| | |
+ | |  | | |  | | |__) | (___ | | |
+ | |  | | |  | |  ___/ \___ \| | |
+ | |__| | |__| | |     ____) |_|_|
+  \____/ \____/|_|    |_____/(_|_)
+   </pre>
+</strong>
+<hr>
+<h2 style="font-family:arial">Looks like the data you submitted is not valid!!</h2>
+<hr>
+
+<p style="font-family:arial">lost? click <a href="/">here</a> to return to the main site and try again</p>
+
+<body style="background-color:#FF6347;">
+</center>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPECIES LIST</title>
+</head>
+<center>
+<body style="background-color:#57cc99;font-family:arial">
+<p>  having trouble? <br><a href="/Karyotype?msg=mouse">Check if your animal is in our database</a><br>
+</center>
+</body>
+</html>
+
+comment:having a valid animal and a non valid chromosome also takes you to this link where you can check for its list
+----------------------------------------------------------------------
+TEST 5:
+input:
+http://localhost:8080/ChromosomeLength?species=1234&chromosome=any
+output:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page not found</title>
+</head>
+<center>
+    <strong>
+    <pre style="background-color:white;">
+ ____   ____  _____   _____ _ _
+  / __ \ / __ \|  __ \ / ____| | |
+ | |  | | |  | | |__) | (___ | | |
+ | |  | | |  | |  ___/ \___ \| | |
+ | |__| | |__| | |     ____) |_|_|
+  \____/ \____/|_|    |_____/(_|_)
+   </pre>
+</strong>
+<hr>
+<h2 style="font-family:arial">Looks like the data you submitted is not valid!!</h2>
+<hr>
+
+<p style="font-family:arial">lost? click <a href="/">here</a> to return to the main site and try again</p>
+
+<body style="background-color:#FF6347;">
+</center>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPECIES LIST</title>
+</head>
+<center>
+<body style="background-color:#57cc99;font-family:arial">
+<p>  having trouble? <br><a href="/Karyotype?msg=1234">Check if your animal is in our database</a><br>
+</center>
+</body>
+</html>
+comment: testing for numbers instead of animals and strings instead of chromosomes
